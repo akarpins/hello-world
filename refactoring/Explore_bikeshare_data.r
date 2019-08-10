@@ -14,6 +14,10 @@ head(chi)
 
 names(ny)
 
+#add summary statistics - AK on Aug 10, 2019
+
+summary(ny)
+
 #format variables
 ny$Birth.Year <- as.integer(ny$Birth.Year)
 ny$User.Type   <- as.factor(ny$User.Type)
