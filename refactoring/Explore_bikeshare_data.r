@@ -18,6 +18,10 @@ names(ny)
 
 summary(ny)
 
+summary(chi)
+
+summary(wash)
+
 #format variables
 ny$Birth.Year <- as.integer(ny$Birth.Year)
 ny$User.Type   <- as.factor(ny$User.Type)
